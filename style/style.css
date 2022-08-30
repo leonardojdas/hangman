@@ -1,0 +1,298 @@
+html, body
+{
+    height: 100%;
+}
+
+#main{
+    background-color: #C3F0C8;
+    text-align: center;
+    min-height: 100%;
+    padding-bottom: 25px;
+}
+
+.bg-6
+{
+    background-color: #C3F0C8 !important;
+}
+
+.bg-5
+{
+    background-color: #C5E9C3 !important;
+}
+
+.bg-4
+{
+    background-color: #C7D8B6 !important;
+}
+
+.bg-3
+{
+    background-color: #C9BCA2 !important;
+}
+
+.bg-2
+{
+    background-color: #CA9788 !important;
+}
+
+.bg-1
+{
+    background-color: #CB6866 !important;
+}
+
+.bg-0
+{
+    background-color: #CB323F !important;
+}
+
+
+#header
+{
+    width: 100%;
+}
+
+h1
+{
+    margin: 0px;
+    padding: 40px 0px 40px 0px;
+}
+
+h2
+{
+    margin: 0px;
+    font-size: 1.2em;
+}
+
+
+#content
+{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 50px 0px 50px 0px;
+}
+
+@media (max-width: 1200px) {
+    #content{
+        width: calc(100% - 50px);
+    }
+}
+
+.btn-new-game
+{
+    background-color: #212529;
+    border: solid 2px #212529;
+    width: 150px;
+    border-radius: 20px;
+    padding: 15px 10px 15px 10px;
+    color: #ffffff;
+    position: relative;
+    font-weight: 700;
+}
+
+.btn-new-game:hover
+{
+    border: solid 2px #C3F0C8;
+    color: #000000;
+    background-color: #C3F0C8;
+    box-shadow: 3px 3px #0000004b;
+}
+
+.btn-new-game-selected
+{
+    border: solid 2px #C3F0C8;
+    color: #000000;
+    background-color: #C3F0C8;
+    box-shadow: 3px 3px #0000004b;
+}
+
+.icon-check
+{
+    width: 25px;
+    height: 25px;
+    background-color: #7be284;
+    color: #000000;
+    padding: 5px;
+    border-radius: 100px;
+    font-size: .7em;
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -45%);
+}
+
+.hidden
+{
+    display: none;
+}
+
+.container-category
+{
+    margin: 0 auto;
+    width: 800px;
+    border: solid 1px #00000017;
+    border-radius: 20px;
+    margin-top: 80px;
+    padding: 30px 0px 30px 0px;
+}
+
+.title-category
+{
+    background-color: #e2e2e34f;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: -45px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 50px;
+    font-variant: small-caps;
+    font-size: .85em;
+}
+
+.categorie-row{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-category{
+    border: solid 2px #E2E2E3;
+    width: 150px;
+    padding: 20px 0px 20px 0px;
+    border-radius: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 10px;
+    position: relative;
+}
+
+
+.btn-category:hover
+{
+    border: solid 2px #7be284;
+    box-shadow: 3px 3px #0000004b;
+}
+
+.btn-category-selected{
+    border: solid 2px #7be284;
+    box-shadow: 3px 3px #0000004b;
+}
+
+.category-icon
+{
+    font-size: 2.5em;
+}
+
+
+.btn-start
+{
+    margin-top: 20px;
+    width: 80px;
+    background-color: #212529;
+    border: solid 2px #212529;
+    border-radius: 20px;
+    padding: 15px 10px 15px 10px;
+    color: #ffffff;
+    position: relative;
+}
+
+.btn-start:hover
+{
+    background-color: #C3F0C8;
+    border: solid 2px #C3F0C8;
+    color: #000000;
+    box-shadow: 3px 3px #0000004b;
+}
+
+.btn-start-selected
+{
+    background-color: #C3F0C8;
+    border: solid 2px #C3F0C8;
+    color: #000000;
+    box-shadow: 3px 3px #0000004b;
+}
+
+.message
+{
+    margin-top: 60px;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.guesses
+{
+    font-size: .9em;
+}
+
+
+#draw
+{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.draw
+{
+    height: 300px;
+}
+
+.alphabet-container
+{
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 760px;
+    line-height: 50px;
+    border: solid 1px #00000017;
+    border-radius: 20px;
+    padding: 10px 0px 10px 0px;
+}
+
+@media (max-width: 885px) {
+    #alphabetContainer{
+        width: calc(100% - 50px);
+    }
+}
+
+
+.alphabet{
+    width: 50px;
+    background-color: #00000017;;
+    text-align: center;
+    border-radius: 10px;
+    margin: 3px;
+}
+
+.alphabet:hover
+{
+    border: solid 2px #7be284;
+    box-shadow: 3px 3px #0000004b;
+}
+
+#letters{
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.letter{
+    width: 50px;
+    height: 60px;
+    line-height: 60px;
+    margin: 5px;
+    font-size: 2em;
+    text-align: center;
+    border-bottom: solid 2px #00000017;
+}
+
+.correct-guess
+{
+    background-color: #C3F0C8;
+}
+
+.wrong-guess
+{
+    background-color: #CB323F;
+    color: #ffffff;
+    text-decoration: line-through;
+}
